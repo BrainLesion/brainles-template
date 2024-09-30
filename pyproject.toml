@@ -6,7 +6,7 @@ build-backend = "poetry_dynamic_versioning.backend"
 enable = true
 
 [tool.poetry]
-name = "TODO"
+name = "package_name"
 version = "0.0.0"
 description = ""
 authors = ["Florian Kofler <florian.kofler@tum.de>"]
