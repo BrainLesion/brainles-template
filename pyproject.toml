@@ -6,13 +6,13 @@ build-backend = "poetry_dynamic_versioning.backend"
 enable = true
 
 [tool.poetry]
-name = ""
+name = "TODO"
 version = "0.0.0"
 description = ""
 authors = ["Florian Kofler <florian.kofler@tum.de>"]
-repository = ""
-homepage = ""
-documentation = ""
+repository = "https://www.TODO.com"
+homepage = "https://www.TODO.com"
+documentation = "https://www.TODO.com"
 readme = "README.md"
 
 
