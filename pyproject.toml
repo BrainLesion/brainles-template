@@ -6,13 +6,13 @@ build-backend = "poetry_dynamic_versioning.backend"
 enable = true
 
 [tool.poetry]
-name = ""
+name = "package_name"
 version = "0.0.0"
 description = ""
 authors = ["Florian Kofler <florian.kofler@tum.de>"]
-repository = ""
-homepage = ""
-documentation = ""
+repository = "https://www.TODO.com"
+homepage = "https://www.TODO.com"
+documentation = "https://www.TODO.com"
 readme = "README.md"
 
 
@@ -20,17 +20,18 @@ readme = "README.md"
 exclude = ["examples", "benchmark"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.9"
 
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
+pytest = ">=8.0.0"
+pytest-cov = ">=5.0.0"
 
 [tool.poetry.group.docs]
 optional = true
 
 [tool.poetry.group.docs.dependencies]
-Sphinx  = ">=7.0.0"
+Sphinx = ">=7.0.0"
 sphinx-copybutton = ">=0.5.2"
-sphinx-rtd-theme = ">=1.3.0"
+furo = ">=2024.8.6"
 myst-parser = ">=2.0.0"
