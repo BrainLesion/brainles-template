@@ -13,7 +13,7 @@ Description
 
 ## Installation
 
-With a Python 3.8+ environment, you can install `PACKAGE_NAME` directly from [PyPI](https://pypi.org/project/brats/):
+With a Python 3.8+ environment, you can install `PACKAGE_NAME` directly from [PyPI](https://pypi.org/project/PACKAGE_NAME/):
 
 ```bash
 pip install PACKAGE_NAME
