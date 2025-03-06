@@ -7,9 +7,9 @@ enable = true
 
 [tool.poetry]
 name = "package_name"
-version = "0.0.0"
+version = "0.0.0.dev"
 description = ""
-authors = ["Florian Kofler <florian.kofler@tum.de>"]
+authors = ["Marcel Rosier <marcel.rosier@tum.de>"]
 repository = "https://www.TODO.com"
 homepage = "https://www.TODO.com"
 documentation = "https://www.TODO.com"
@@ -20,13 +20,16 @@ readme = "README.md"
 exclude = ["examples", "benchmark"]
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = ">=3.10"
 
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = ">=8.0.0"
 pytest-cov = ">=5.0.0"
-flake8 = ">=4.0.1"
+flake8 = ">=5.0.1"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
 
 [tool.poetry.group.docs]
 optional = true
