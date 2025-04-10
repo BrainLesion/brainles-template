@@ -66,10 +66,10 @@ please specify your docker version, You can find it by running:
 docker --version
 ```
 
-### Version of brats ?
-please specify your version of brats (please make sure you run the latest version):
+### Version of !PACKAGE_NAME! ?
+please specify your version of !PACKAGE_NAME! (please make sure you run the latest version):
 ```sh
-pip freeze | grep brats
+pip freeze | grep !PACKAGE_NAME!
 ```
 
 **Additional context**
